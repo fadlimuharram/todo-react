@@ -32,11 +32,7 @@ const Component = props => {
 
 	const onChangeField = e => {
 		setUpdateTodoData({
-<<<<<<< HEAD
-			...updateTodo,
-=======
 			...updateTodoData,
->>>>>>> 8a2ae96 (init)
 			[e.target.name]: e.target.value,
 		});
 	};

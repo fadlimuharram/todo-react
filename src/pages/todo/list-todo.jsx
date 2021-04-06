@@ -45,12 +45,9 @@ const Component = props => {
 					</ListGroup.Item>
 				))}
 			</ListGroup>
-<<<<<<< HEAD
-=======
 			<Button onClick={() => history.push('/add')} block>
 				Tambah
 			</Button>
->>>>>>> 8a2ae96 (init)
 		</Layout>
 	) : (
 		<Layout>

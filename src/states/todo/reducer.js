@@ -46,10 +46,6 @@ const todoReducer = (state = initialState, action) => {
 			const filteredTodos = state.todos.filter(
 				todo => String(todo.id) !== String(action.payload.id),
 			);
-<<<<<<< HEAD
-=======
-
->>>>>>> 8a2ae96 (init)
 			return {
 				...state,
 				todos: filteredTodos,

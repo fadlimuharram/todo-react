@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-const AddTodoPage = () => {
-	return <div>To do Page</div>;
-};
-
-=======
 import { useState } from 'react';
 import { connect } from 'react-redux';
 import useRouter from 'use-react-router';
@@ -68,5 +62,4 @@ const mapDispatchToProps = dispatch => ({
 
 const AddTodoPage = connect(null, mapDispatchToProps)(Component);
 
->>>>>>> 8a2ae96 (init)
 export { AddTodoPage };

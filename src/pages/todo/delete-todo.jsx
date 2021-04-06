@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-const DeleteTodoPage = () => {
-	return <div>Delete Todo Page</div>;
-};
-
-=======
 import useRouter from 'use-react-router';
 import { deleteTodo } from '../../states/todo/action';
 import { connect } from 'react-redux';
@@ -50,5 +44,4 @@ const mapDispatchToProps = dispatch => ({
 
 const DeleteTodoPage = connect(null, mapDispatchToProps)(Component);
 
->>>>>>> 8a2ae96 (init)
 export { DeleteTodoPage };
